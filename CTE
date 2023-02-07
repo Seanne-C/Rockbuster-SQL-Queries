@@ -1,0 +1,11 @@
+Here is a SQL query showing the films with the highest revenue from the Rockbuster project company
+
+Select A.title,
+SUM (amount) AS total_revenue
+FROM FILM A
+INNER JOIN inventory B ON A.film_id = B.film_id
+INNER JOIN rental C ON B.inventory_id = C.inventory_id
+INNER JOIN payment D ON C.rental_id = D.rental_id
+GROUP BY title
+ORDER BY total_revenue DESC
+LIMIT 10
