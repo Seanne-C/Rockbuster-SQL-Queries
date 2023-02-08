@@ -6,5 +6,7 @@ The dataset comprises of the following information
 * film inventory
 * customers
 * payments
+
 The source of this data was Career Foundry
 ## Tableau Visualizations
+Here is a link to my [tableau visualizations](https://public.tableau.com/app/profile/seanne.coates/viz/RockbusterPresentation_16701870709960/RockbusterPresentation?publish=yes) for this project.
